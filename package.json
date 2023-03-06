@@ -8,12 +8,12 @@
     "lint": "./node_modules/.bin/eslint **.js",
     "prettier": "prettier utils.js src/* --write"
   },
-  "author": "Anup Kumar",
+  "author": "zach",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Anupx0/Anupbot/tree/main/anup-yogesh/issues"
+    "url": "https://github.com/Zachh2/chatbot/tree/main"
   },
-  "homepage": "https://github.com/Anupx0/Anupbot/tree/main/anup-yogesh#readme",
+  "homepage": "https://github.com/Zachh2/chatbot/tree/main",
   "repository": {
     "type": "git",
     "url": "https://github.com/Anupx0/Anupbot/tree/main/anup-yogesh.git"
