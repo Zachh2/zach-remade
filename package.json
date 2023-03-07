@@ -1,5 +1,5 @@
 {
-  "name": "zach",
+  "name": "@zachremade2",
   "version": "3.0.0",
   "description": "REMADE BY ZACH",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "lint": "./node_modules/.bin/eslint **.js",
     "prettier": "prettier utils.js src/* --write"
   },
-  "author": "zach",
+  "author": "@zachremade2",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Zachh2/chatbot/tree/main"
