@@ -6,7 +6,7 @@ var log = require("npmlog");
 var logger = require('./logger');
 var fs = require("fs-extra");
 var axios = require('axios')
-if (!fs.existsSync("./Aliya_Config.json")) {
+if (!fs.existsSync("./zach_Config.json")) {
   log.warn("warn", "FcaConfig File Not Found Create New")
     global.fca = new Object ({
     data: new Object ({
