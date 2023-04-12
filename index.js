@@ -44,7 +44,7 @@ var lang
     process.exit(0)
 }
 global.fca = new Object({
-     ObjFcaConfig: require("../../Aliya_Config.json"),
+     ObjFcaConfig: require("../../zach_Config.json"),
      languages: lang
 })
 if (global.fca.ObjFcaConfig['autoRestartMinutes'] != 0) {
@@ -621,9 +621,9 @@ require('dotenv').config({ path: './../.env' });
                         log.warn("UPDATE > ",`${global.fca.languages.newVersion}${JSON.parse(readFileSync('./node_modules/anup-yogesh/package.json')).version} => ${res.data.version}`);
                         log.warn("UPDATE > ",`${global.fca.languages.autoUpdate}`);
                             try {
-                                execSync('npm install anup-yogesh@latest', { stdio: 'inherit' });
+                                execSync('npm install Fca-zach-remade', { stdio: 'inherit' });
                                 logger(global.fca.languages.okUpdate,"UPDATE")
-                                logger(global.fca.languages.restart, '[ ANUP - YOGESH ]');
+                                logger(global.fca.languages.restart, '[ ZACH - REMADE ]');
                                 await new Promise(resolve => setTimeout(resolve,5*1000));
                                 console.clear();process.exit(1);
                             }
@@ -632,8 +632,8 @@ require('dotenv').config({ path: './../.env' });
                         }
                     }
                 else { 
-                    logger(`${global.fca.languages.checkVersion}` + localbrand + ' !', "[ ANUP - YOGESH ]");      
-                         logger(global.fca.languages.chucAdmin, "[ ANUP - YOGESH ]");
+                    logger(`${global.fca.languages.checkVersion}` + localbrand + ' !', "[ ZACH - REMADE ]");      
+                         logger(global.fca.languages.chucAdmin, "[ ZACH - REMADE ]");
                     await new Promise(resolve => setTimeout(resolve, 3*1000));
                     callback(null, api);
                 }
